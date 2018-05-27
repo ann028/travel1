@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*导航部分*/
+.nav{
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.nav .contain{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+}
+.nav .contain a .pic{
+    width: 137px;
+    height: 80px;
+    /*background: greenyellow;*/
+}
+.nav .contain a .pic img{
+    width: 80px;
+    height: 70px;
+}
+.nav .navBox{
+    display: flex;
+    flex-grow: 1;
+    /*background: #0a7ec1;*/
+    justify-content: flex-end;
+    align-items: center;
+}
+.navBox .line{
+    display: block;
+    width: 112px;
+    height: 30px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.navBox .line a {
+    width:auto;
+    height: 30px;
+    font-size: 14px;
+    color: #333333;
+}
+.active{
+    border-bottom: 1px solid #333333;
+}
+.navBox .line:nth-child(3) a{
+    border-bottom: 1px solid #333333;
+}
+/*banner*/
+.newsBanner{
+    width: 100%;
+    height: 350px;
+    background-image:url('../img/newsbanner.jpg') ;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    width: 1170px;
+    height: auto;
+  margin: 0 auto;
+    margin-top: 80px;
+    /*background: red;*/
+}
+ul li{
+    width:100% ;
+    height: 220px;
+    margin-bottom: 50px;
+
+    /*background: yellow;*/
+}
+ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+ul li a .date{
+    width: 150px;
+    height: 220px;
+    /*background: blue;*/
+    float: left;
+    font-size: 30px;
+    color: #759EAE;
+    border-right: 1px solid #333333;
+    box-sizing: border-box;
+}
+ul li a .dir{
+    width: 1020px;
+    height: 220px;
+    margin-left: 150px;
+    /*background: rebeccapurple;*/
+}
+ul li a .dir .dirLeft{
+    width: 442px;
+    height: 100%;
+    /*background: pink;*/
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+ul li a .dir .dirLeft .dirTittle{
+    width: 442px;
+    height: 30px;
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+ul li a .dir .dirLeft .dirinfo{
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    font-size: 14px;
+    color: #999999;
+}
+
+ul li a .dir .dirRight{
+    width: 528px;
+    height: 100%;
+    background: palevioletred;
+    float: left;
+    margin-left: 50px;
+    /*padding: 10px 50px 0;*/
+    /*box-sizing: border-box;*/
+    background-image: url("../img/liebiao1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+ul li:nth-child(2) a .dir .dirRight{
+    background-image: url("../img/liebiao2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+ul li:nth-child(3) a .dir .dirRight{
+    background-image: url("../img/liebiao3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+ul li:nth-child(4) a .dir .dirRight{
+    background-image: url("../img/liebiao4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 85px;
+    background: #333333;
+    margin-top: 100px;
+}
+footer .neikuan{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 85px;
+}

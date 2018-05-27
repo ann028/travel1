@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*导航部分*/
+.nav{
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.nav .contain{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+}
+.nav .contain a .pic{
+    width: 137px;
+    height: 80px;
+    /*background: greenyellow;*/
+}
+.nav .contain a .pic img{
+    width: 80px;
+    height: 70px;
+}
+.nav .navBox{
+    display: flex;
+    flex-grow: 1;
+    /*background: #0a7ec1;*/
+    justify-content: flex-end;
+    align-items: center;
+}
+.navBox .line{
+    display: block;
+    width: 112px;
+    height: 30px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.navBox .line a {
+    width:auto;
+    height: 30px;
+    font-size: 14px;
+    color: #333333;
+}
+.active{
+    border-bottom: 1px solid #333333;
+}
+.navBox .line:nth-child(5) a{
+    border-bottom: 1px solid #333333;
+}
+/*bannerPic*/
+.bannerPic{
+    width:1170px;
+    height: 400px;
+   margin: 0 auto;
+}
+.bannerPic .minPic{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/about/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/*内容*/
+.neirong{
+    width: 1170px;
+    height: 720px;
+    margin: 0 auto;
+}
+.neirong .neirongLeft{
+    width: 468px;
+    height: 600px;
+    float: left;
+    /*background: #0a7ec1;*/
+}
+.neirong .neirongLeft .pTop{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.neirong .neirongLeft .pBottom{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #999999;
+}
+
+.neirong .neirongRight{
+    width: 680px;
+    height: 600px;
+    margin-top: 30px;
+    float: right;
+    /*background: green;*/
+}
+.neirong .neirongRight .box1{
+    width: 100%;
+    height: 160px;
+    /*background: #0a7ec1;*/
+    border-bottom: 1px solid #D9D9D9;
+}
+.neirong .neirongRight .box1 .box1Top{
+    width: 100%;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.neirong .neirongRight .box1 .box1Bottom{
+    margin-top: 15px;
+    width: 100%;
+    height: 78px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.neirong .neirongRight .box2{
+    width: 100%;
+    height: 229px;
+    /*background: yellow;*/
+    border-bottom: 1px solid #D9D9D9;
+}
+.neirong .neirongRight .box2 .box2Top{
+    width: 100%;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.neirong .neirongRight .box2 .box2Bottom{
+    width: 100%;
+    height: 205px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.neirong .neirongRight .box3{
+    width: 100%;
+    height: 125px;
+    /*background: palevioletred;*/
+}
+.neirong .neirongRight .box3 .box3Top{
+    width: 100%;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.neirong .neirongRight .box3 .box3Bottom{
+    width: 100%;
+    height: 54px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #999999;
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: 85px;
+    background: #333333;
+    margin-top: 100px;
+}
+footer .neikuan{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 85px;
+}
